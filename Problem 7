@@ -12,3 +12,4 @@ printf("Enter a number: ");
  }
  printf("Reversed Number: %d",sum);
 return 0;
+}
