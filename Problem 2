@@ -1,0 +1,14 @@
+#include <stdio.h>
+double PI = 3.1416;
+double Circle(double radius) {
+ double Area = PI * radius * radius;
+ return Area;
+}
+double RectangleArea(double length, double width) {
+ double Area =length*width;
+ return Area;
+}
+double Triangle(double base, double height) {
+ double Area = 0.5 * base * height;
+ return Area;
+}
